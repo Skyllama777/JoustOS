@@ -6,3 +6,8 @@ net.ipv4.ip_forward = 0
 net_syncookies = 1
 net.ipv4.icm-p_echo_ignore_broadcasts = 1
 net.ipv4.conf.all.accept_-source_route = 0 
+net.ipv4.conf.default.accept_-source_route = 0 
+net.ipv4.conf.all.send_redirects = 0 
+net.ipv4.default.accept_redirects = 0 
+net.ipv4.conf.default.send_redirects = 0 
+
